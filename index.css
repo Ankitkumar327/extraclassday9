@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  background-color: rgba(125, 126, 214, 0.411);
+  animation-name: animation1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: relative;
+}
+
+@keyframes animation1 {
+  0% {
+    background-color: hotpink;
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    background-color: crimson;
+    top: 0px;
+    left: 700px;
+  }
+  50% {
+    background-color: blueviolet;
+    top: 200px;
+    left: 700px;
+  }
+  75% {
+    background-color: darkorange;
+    top: 200px;
+    left: 0px;
+  }
+  100% {
+    background-color: royalblue;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border: 3px solid lawngreen;
+  border-radius: 50%;
+  position: relative;
+  animation-name: animation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation2 {
+  0% {
+    background-color: darkred;
+    top: 0px;
+    left: 0px;
+  }
+  15% {
+    background-color: aqua;
+    top: 20px;
+    left: 200px;
+  }
+  25% {
+    background-color: yellowgreen;
+    top: 200px;
+    left: 700px;
+  }
+  45% {
+    background-color: cadetblue;
+    top: 20px;
+    left: 0px;
+  }
+  60% {
+    background-color: blue;
+    top: 0px;
+    left: 0px;
+  }
+  75% {
+    background-color: darkgreen;
+    top: 50px;
+    left: 300px;
+  }
+  90% {
+    background-color: crimson;
+    top: 0px;
+    left: 50px;
+  }
+  100% {
+    background-color: lightsalmon;
+    top: 50px;
+    left: 0px;
+  }
+}
